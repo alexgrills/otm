@@ -1,0 +1,4 @@
+From python
+RUN pip install flask pytest pytest-mock requests flask-sqlalchemy
+CMD /bin/bash 
+WORKDIR /otm
