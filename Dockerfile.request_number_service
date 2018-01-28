@@ -1,0 +1,5 @@
+From python
+RUN pip install flask requests
+COPY . /otm
+WORKDIR /otm
+CMD python request_number_service.py
